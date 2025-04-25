@@ -3,7 +3,7 @@
 install repo
 (requires python, pip, and setuptools)
 ```bash
-git git@github.com:Devel-Dan/Joby.git
+git clone git@github.com:Devel-Dan/Joby.git
 cd Joby
 pip install -e .
 ```

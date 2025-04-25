@@ -1,7 +1,7 @@
 ## Installation
 
 install repo
-
+(requires python, pip, and setuptools)
 ```bash
 git git@github.com:Dkazem91/Joby.git
 cd Joby

@@ -1,4 +1,3 @@
-# test_ip_address_handler.py
 import pytest
 from joby_challenge.models.ip_address_handler import IPAddressHandler
 from tests.constants import TEST_NETWORK_CIDR, TEST_SKIP_VALUES, TEST_SINGLE_IP, TEST_INVALID_IP
@@ -34,7 +33,7 @@ class TestIPAddressHandler:
         """ tests the initializtion"""
         # Test initialization with IP addresses and no skips
         handler = IPAddressHandler(sample_networks)
-        
+
         # check that ip addresses match what we expect
         assert sorted(handler.ip_addresses) == sorted(
             CIDR_IP_ADDRESSES + CIDR_2_IP_ADDRESSES

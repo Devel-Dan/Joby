@@ -1,4 +1,3 @@
-# test_network_data_collector.py
 import pytest
 import logging
 from joby_challenge.models.network_data_collector import NetworkDataCollector, DEFAULT_OCTET

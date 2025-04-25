@@ -1,4 +1,3 @@
-# tests/test_ping_host.py
 import pytest
 from unittest.mock import call
 
